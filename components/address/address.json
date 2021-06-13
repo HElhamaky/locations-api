@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_address_addresses",
+  "info": {
+    "name": "Address",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "city": {
+      "type": "string"
+    },
+    "street": {
+      "type": "string"
+    },
+    "housenumber": {
+      "type": "integer"
+    }
+  }
+}

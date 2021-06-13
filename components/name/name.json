@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_name_names",
+  "info": {
+    "name": "Name",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "ar": {
+      "type": "string"
+    },
+    "en": {
+      "type": "string"
+    },
+    "alt": {
+      "type": "string"
+    }
+  }
+}

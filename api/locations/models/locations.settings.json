@@ -1,0 +1,47 @@
+{
+  "kind": "collectionType",
+  "collectionName": "locations",
+  "info": {
+    "name": "locations"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "lat": {
+      "type": "float"
+    },
+    "lon": {
+      "type": "float"
+    },
+    "timestamp": {
+      "type": "datetime"
+    },
+    "changeset": {
+      "type": "integer"
+    },
+    "source": {
+      "type": "string"
+    },
+    "amenity": {
+      "type": "enumeration",
+      "enum": [
+        "cafe",
+        "restaurant"
+      ]
+    },
+    "Address": {
+      "type": "component",
+      "repeatable": true,
+      "component": "address.address"
+    },
+    "Name": {
+      "type": "component",
+      "repeatable": true,
+      "component": "name.name"
+    }
+  }
+}
